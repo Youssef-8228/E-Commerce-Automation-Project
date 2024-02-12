@@ -12,7 +12,7 @@ public class TC4 extends TestBase {
     private HomePage homePage;
     private MobilePage mobilePage;
 
-    @Test (groups = {"Together"})
+    @Test
     public void PopUpHandling () throws IOException {
         homePage = new HomePage(driver);
         String Main = driver.getWindowHandle();// mobile page handle

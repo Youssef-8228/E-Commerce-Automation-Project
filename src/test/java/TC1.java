@@ -8,7 +8,7 @@ public class TC1 extends TestBase {
     private HomePage homePage;
     private MobilePage mobilePage;
 
-    @Test (groups = {"Together"})
+    @Test
     public void TC1_sorting() throws IOException {
         homePage = new HomePage(driver);
         String Title = homePage.GetingHomePageTitle();

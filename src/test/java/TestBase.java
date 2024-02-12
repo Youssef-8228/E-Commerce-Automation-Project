@@ -7,7 +7,7 @@ import org.testng.annotations.Parameters;
 
 public class TestBase {
     protected WebDriver driver;
-    protected String Email = "layav95749@oprevolt.com";
+    protected String Email = "q1raxt96aa@secretmail.net";
     protected String Password = "Youssef@8228";
     protected String FirstName = "Youssef";
     protected String LastName = "Mohamed";
@@ -35,6 +35,7 @@ driver = new ChromeDriver();
         else {
             throw new Exception("enter the browser type");
         }
+        driver.manage().window().maximize();
         Thread.sleep(1000);
 
 

@@ -8,7 +8,7 @@ public class TC3 extends TestBase {
     private SonyXperiaPage sonyXperiaPage;
     AddToCartPage addToCartPage;
 
-    @Test (groups = {"Together"})
+    @Test
     public void TC3_cartQuantity (){
         homePage = new HomePage(driver);
         mobilePage =  homePage.clickOnMobile();

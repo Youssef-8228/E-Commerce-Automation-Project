@@ -7,7 +7,7 @@ public class TC2 extends TestBase{
     private MobilePage mobilePage;
     private SonyXperiaPage sonyXperiaPage;
 
-    @Test (groups = {"Together"})
+    @Test
     public void TC2_mobValue (){
         homePage =new HomePage(driver);
         mobilePage = homePage.clickOnMobile();
