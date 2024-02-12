@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Login And Actions">
+    <test  name="Verify you can create account in E-commerce site and can share wishlist to other people using email" >
+        <parameter name="browser" value="firefox">
+        </parameter>
+        <parameter name= "URL" value="user">
+        </parameter>
+        <classes>
+            <class name="TC5"/>
+        </classes>
+    </test>
+<test  name="Verify user is able to purchase product using registered email id" >
+    <parameter name="browser" value="chrome">
+    </parameter>
+    <parameter name= "URL" value="user">
+    </parameter>
+    <classes>
+        <class name="TC6"/>
+    </classes>
+</test>
+<test  name="Verify that you will be able to save previously placed order" >
+    <parameter name="browser" value="firefox">
+    </parameter>
+    <parameter name= "URL" value="user">
+    </parameter>
+    <classes>
+        <class name="TC7"/>
+    </classes>
+</test>
+<test  name="Verify you are able to change or reorder previously added product" >
+    <parameter name="browser" value="firefox">
+    </parameter>
+    <parameter name= "URL" value="user">
+    </parameter>
+    <classes>
+        <class name="TC8"/>
+    </classes>
+</test>
+</suite>

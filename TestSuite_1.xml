@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite_1" thread-count="6" parallel="tests">
+    <test thread-count="6" name="Verify Sorting By Name" >
+        <parameter name="browser" value="firefox">
+        </parameter>
+        <parameter name= "URL" value="user">
+        </parameter>
+        <classes>
+            <class name="TC1"/>
+        </classes>
+    </test>
+    <test thread-count="6" name="verify the cost of the product" >
+        <parameter name="browser" value="firefox">
+        </parameter>
+        <parameter name= "URL" value="user">
+        </parameter>
+        <classes>
+            <class name="TC2"/>
+        </classes>
+    </test>
+    <test thread-count="6" name="verify the quantity of the product" >
+        <parameter name="browser" value="firefox">
+        </parameter>
+        <parameter name= "URL" value="user">
+        </parameter>
+        <classes>
+            <class name="TC3"/>
+        </classes>
+    </test>
+    <test thread-count="6" name="verify comparing between two product" >
+        <parameter name="browser" value="firefox">
+        </parameter>
+        <parameter name= "URL" value="user">
+        </parameter>
+        <classes>
+            <class name="TC4"/>
+        </classes>
+    </test>
+    <test thread-count="6" name="Verify Discount Coupon works correctly" >
+        <parameter name="browser" value="firefox">
+        </parameter>
+        <parameter name= "URL" value="user">
+        </parameter>
+        <classes>
+            <class name="TC9"/>
+        </classes>
+    </test>
+    <test thread-count="6" name="Export all Orders in csv file " >
+        <parameter name="browser" value="firefox">
+        </parameter>
+        <parameter name= "URL" value="admin">
+        </parameter>
+        <classes>
+            <class name="TC10"/>
+        </classes>
+    </test>
+</suite>
